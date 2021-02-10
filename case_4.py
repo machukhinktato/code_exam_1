@@ -16,7 +16,6 @@ for elem in data[:]:
 
 for tag in data[:]:
     if '/'+tag not in data[:]:
-        # print('---')
         if '/' not in  tag: 
             print(tag)
     else:
