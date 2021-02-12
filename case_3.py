@@ -1,11 +1,6 @@
 import sys
 
 
-letters_limit = int(user_pick[0])
-user_pick = ''.join(user_pick[1:])
-test = []
-
-
 def gen_k_streak(user_pick = '3aabacbebebe'):
     string = ''.join(user_pick[1:])
     k_qty = int(user_pick[0])
