@@ -8,7 +8,7 @@ def time_difference(data=['10:00am', '11:45', '5^00am', '12^01am']):
         if 'pm' in elem:
             time_list.append(handling(elem))
         else:
-            time_list.append((handling(elem, status='pm')))
+            time_list.append((handling(elem, status='am')))
     return smallest_diff(sorted(time_list))
 
 
