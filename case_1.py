@@ -1,7 +1,7 @@
 import re
 
 
-def time_difference(data=['10:00am', '11:45', '5^00am', '12^01am']):
+def time_difference(data=['10:00am', '11:45pm', '5:00am', '12:01am']):
     """ функция высчитывает меньший временной диапозон в предоставленном списке"""
     time_list = []
     for elem in data:
